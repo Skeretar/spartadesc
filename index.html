@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Skeletal's GM13 Submission</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style> 
+        /* Insert CSS here */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #171717;
+            color: #f0f0f0;
+        }
+        
+        div.header {
+            box-sizing: border-box;
+            background-color: #0f0f0f;
+            padding: 2px;
+        }
+        
+        div.header h1 {
+            text-align: center;
+            font-size: 200%;
+            margin: 7px;
+        }
+        
+        p {
+            margin: 0;
+            font-size: 1.25em;
+            margin-bottom: 20px;
+        }
+        
+        div.container {
+            padding: 10px;
+        }
+        
+        h2.title {
+            font-size: 150%;
+        }
+        
+        div.placeholder {
+            padding-top:100%;
+            
+        }
+        
+        a {
+            padding: 10px;
+        }
+        
+        a:link, a:visited {
+            background-color: #b91e02;
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: #e8583f;
+        }
+        
+        a:active {
+            background-color: red;
+        }
+        
+        table, th, td {
+            border-bottom: 1px solid #bfbfbf;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 20px;
+            text-align: left
+        }
+        
+        tr:nth-child(2n) {
+            background-color: rgba(0,0,0, 0.75)
+        }
+        
+        tr:nth-child(2n+1) {
+            background-color: rgba(0,0,0, 0.25)
+        }
+        
+        tr:hover {
+            background-color: rgba(50, 50 ,50, 0.5)
+        }
+        
+        p.note {
+            padding-top: 10px;
+            font-size: 75%
+        }
+        
+        div.DateAndEvent {
+            border-bottom:1px solid rgba(255, 255, 255, 0.70);
+            display: inline-block;
+        }
+        
+        p.date {
+            font-size: 100%;
+            margin: 0;
+            display:inline;
+            color: #cccccc
+        }
+        
+        p.event {
+            font-size: 100%;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        
+        p.eventdesc {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+                
+        p.eventdesca{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        
+        ul {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            font-size: 110%
+        }
+        
+        p.finished {
+            text-align: center;
+            background-color: rgba(74, 0, 0, 0.25);
+            padding: 10px;
+            margin: 0;
+        }
+        
+        p.started {
+            text-align: center;
+            background-color: rgba(0, 74, 0, 0.25);
+            padding: 10px;
+            margin: 0;
+        }
+        
+        p.bottom {
+            margin: 0;
+            text-align: right;
+            font-size: 65%
+        }
+        
+        .redacted {
+            background-color: black;
+            color: rgb(10, 10, 10)
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="header"><h1>SPARTA'S FILE</h1></div>
+    <div class="container">
+        <p>You are about to enter a classified file.<br /> If you are not allowed to view classified files above Level 2, it is advised for you to leave.</p>
+        <p>If you are allowed to view this file, then click the button below.</p>
+        <a href="#teleport">VIEW FILE</a>
+        <hr />
+        <div class="placeholder"></div>
+        <hr />
+        <p class="started" id="teleport">[ FILE CONTENT BEGIN ]</p>
+        <h2 class="title">GENERAL INFORMATION</h2>
+        <table>
+        <tr>
+            <th>Name</th>
+            <td>Spartan Empire</td>
+        </tr>
+        <tr>
+            <th>Government</th>
+            <td>Dictatorship</td>
+        </tr>        
+        <tr>
+            <th>Capital</th>
+            <td>Sparta</td>
+        </tr>        
+        <tr>
+            <th>Population</th>
+            <td>&#126;7.64 Millions</td>
+        </tr>
+        </table>
+        <p class="note">Note to the reader: A map and the flag has also been included in the document.</p>
+                <br />
+        <h2 class="title">CURRENT SITUATION</h2>
+        <p>The Spartan Empire is a new country that has been threating various countries, ranging from Italy to Turkey.</p>
+        
+        <h2 class="title">ORIGINS</h2>
+        <p>The first appearance of this country was made in the 20th of October 2012, during a protest in Athens. Many flags of the current country were spotted during that protest, but they were just regarded as symbolic flags at the time. <br />It got its independence in the 1st June of 2013, after countless riots in the Peloponnesian regions.</p>
+        
+        <h2 class="title">HISTORIC EVENTS</h2>
+        <div class="DateAndEvent"><p class="date">20-10-2012: </p> <p class="event">The Beginning of Spartan Riots</p></div>
+        <p class="eventdesc">In that date, the Spartan riots for its independence began. Its first riot was in Sparta, and it was immediately turned into a violent riot. After a week the entire city of Sparta was occupied by the insurgents. Soon after 7 months the entire region of Peloponnese would be in the hands of the rioters.</p>
+        
+        <div class="DateAndEvent"><p class="date">05-06-2013: </p><p class="event">Spartan Independence</p></div>
+        <p class="eventdesc">When the Greek government realized it was too late to stop the insurgency, they gave the insurgents full independence with the Athens Agreement.</p>
+        
+        <div class="DateAndEvent"><p class="date">02-03-2015: </p><p class="event">Spartan-Greek War</p></div>
+        <p class="eventdesc">In that date, at exactly hour 22:59, unknown military forces began invading the Greek territories. This caused a full-scale conflict between Sparta and Greece, with also various countries joining in the war for support. Greece also requested support for NATO, but it was rejected since that it counted as an "internal war" for them.</p>
+        
+        <div class="DateAndEvent"><p class="date">06-09-2017: </p><p class="event">Treaty of Patras</p></div>
+        <p class="eventdesca">Greece capitulated at hour 21:59, after that they've realized most of their territories are occupied. In the following day at 07:00, the Treaty of Patras was signed. Its consequences of the treaty were: </p>
+        <ul>
+            <li>Full annexation of Greece</li>
+            <li>Installation of a Pro-Spartan government in Albania</li>
+            <li>Annexation of a part of South-Eastern Macedonia</li>
+            <li>The former capital of Athens to be razed to the ground.</li>
+        </ul>
+        
+        <div class="DateAndEvent"><p class="date">05-12-2020: </p><p class="event">Instanbul Agreement</p></div>
+        <p class="eventdesc">Sparta and Turkey made a secret agreement, which the only part we know is that Turkey leased their western lands to Greece. Other parts of the agreements are still unknown.</p>
+        
+
+    </div>
+    <p class="finished">[ FILE CONTENT OVER ]</p>
+    <p class="bottom">File wrote by: <span class="redacted">[REDACTED]</span></p>
+</body>
